@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "checks_passed": [
+    "actual npm pack contains all 11 bundled SDK packages",
+    "offline packed installation with locked host React fixtures",
+    "all 7 exports bundle for browser without server SDK leakage",
+    "migration snapshot and original vendor hashes"
+  ],
+  "migration_changes": [
+    "declare existing React and React DOM host peer requirements",
+    "add pinned esbuild development dependency and packed-consumer check"
+  ],
+  "not_performed": [
+    "npm publication",
+    "replacement of SplitIn vendor artifact"
+  ]
+}

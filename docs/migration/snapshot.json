@@ -1,0 +1,173 @@
+{
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "8875234fb3a6c3a6c1526e29e84912dade9c68ac14fccad175e6d47b4674eb5a",
+      "source_sha256": "8875234fb3a6c3a6c1526e29e84912dade9c68ac14fccad175e6d47b4674eb5a",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "866663135c1304708a29b3dd9b49d49c2d89e8c093c8f86519c7a30f8282c7ad",
+      "source_sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "README.md",
+      "sha256": "5346fd530e6a532773cf41d958e9430229735ae42d9229210bd7686e12a824e9",
+      "source_sha256": "e2613c38f3c3b9e01722b6ddc2e477fe642898fa6462e6c2ef04b84eca12e772",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "launcher.ts",
+      "sha256": "487e6e8d65c4371b4147eb5ece2c5a4457f36d9c3d0e16a8714686805caf91d3",
+      "source_sha256": "487e6e8d65c4371b4147eb5ece2c5a4457f36d9c3d0e16a8714686805caf91d3",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "operations.ts",
+      "sha256": "1b74565b1aa28943f0f4875a6e3a6951f9050916c4a865abb18ad8e9f6f9d102",
+      "source_sha256": "1b74565b1aa28943f0f4875a6e3a6951f9050916c4a865abb18ad8e9f6f9d102",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "f89b0d13f47c5edb892da3b94c52a1c0752a5983ef0da9f400a2040e4012b90c",
+      "source_sha256": "526af26f2b2427203a1a2b24b0276b9729bdafb7f5863833d3cc6f88d14581a7",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "package.json",
+      "sha256": "9358dc1c7eef71dab924316c18c159d02db1881c6dad8af5b37ff0e3cea3ba03",
+      "source_sha256": "c9ac92d59f66451b8a06cc5e970aec73a5cde0419023645df1d2d7e8328d4f32",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "retry.ts",
+      "sha256": "ab4cc4c5bf2e1419bde2b158a83c0ea1b1248a1ce797318c08592c1a67d8e630",
+      "source_sha256": "ab4cc4c5bf2e1419bde2b158a83c0ea1b1248a1ce797318c08592c1a67d8e630",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "sdk.ts",
+      "sha256": "1f3119cc8390c32ff64b08db540602d1203e6f0d06d04a2bb8bc3f00c2c24796",
+      "source_sha256": "1f3119cc8390c32ff64b08db540602d1203e6f0d06d04a2bb8bc3f00c2c24796",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "status.ts",
+      "sha256": "8b2edcd64c2824a93d663bb870c89950a8bbb26a622edef49e659c617e76847b",
+      "source_sha256": "8b2edcd64c2824a93d663bb870c89950a8bbb26a622edef49e659c617e76847b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "styles.css",
+      "sha256": "6b7127f47800bbfd14fe3927b31f4050eba6a7a7d7edd93b2c20afb2d6e623a4",
+      "source_sha256": "6b7127f47800bbfd14fe3927b31f4050eba6a7a7d7edd93b2c20afb2d6e623a4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-adapter-persona-0.1.0-beta.1.tgz",
+      "sha256": "963f32278db77fceaf9d0f1fc1cc9975f7d206d24e057f36d739e1f646bc0063",
+      "source_sha256": "963f32278db77fceaf9d0f1fc1cc9975f7d206d24e057f36d739e1f646bc0063",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-adapter-plaid-idv-0.1.0-beta.1.tgz",
+      "sha256": "c5c5e01fddcdbed61c86bc72ac44057f7c1bffff9164726493ed623f90ce503b",
+      "source_sha256": "c5c5e01fddcdbed61c86bc72ac44057f7c1bffff9164726493ed623f90ce503b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-adapter-sdk-0.1.0-beta.1.tgz",
+      "sha256": "c0c4de0938f84c80327ded30d165b560b21f8801e80c70626f593351e2da6176",
+      "source_sha256": "c0c4de0938f84c80327ded30d165b560b21f8801e80c70626f593351e2da6176",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-adapter-stripe-identity-0.1.0-beta.1.tgz",
+      "sha256": "66675674394fcf036eb9e01959146405c54754c599d84c5008ef5e02c5a9430c",
+      "source_sha256": "66675674394fcf036eb9e01959146405c54754c599d84c5008ef5e02c5a9430c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-cli-0.1.0-beta.1.tgz",
+      "sha256": "6e9deb4fe12b27e1cd4106f64258fa31c40d5af0648010c43f36d5fa649ae1b2",
+      "source_sha256": "6e9deb4fe12b27e1cd4106f64258fa31c40d5af0648010c43f36d5fa649ae1b2",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-compat-splitin-v2-0.1.0-beta.1.tgz",
+      "sha256": "2a794f3ee38f3d1f2c55c9cc126c63fefb1f267abd57012641f94f02e3aef8ff",
+      "source_sha256": "2a794f3ee38f3d1f2c55c9cc126c63fefb1f267abd57012641f94f02e3aef8ff",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-engine-0.1.0-beta.1.tgz",
+      "sha256": "7d8a15ba665ccdbb2c9e90cdc2184c860844f9a70d858b2ecd313023a8abe602",
+      "source_sha256": "7d8a15ba665ccdbb2c9e90cdc2184c860844f9a70d858b2ecd313023a8abe602",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-postgres-0.1.0-beta.1.tgz",
+      "sha256": "4a6aee9f0eb5b2416d0aca7f0f24b35a40e3e7521cff8e0009232aea43ae7cfb",
+      "source_sha256": "4a6aee9f0eb5b2416d0aca7f0f24b35a40e3e7521cff8e0009232aea43ae7cfb",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-react-0.1.0-beta.1.tgz",
+      "sha256": "12a36b9de6bbd240528ad26618a0dc7bd631db949a9312c01184fee20e11960b",
+      "source_sha256": "12a36b9de6bbd240528ad26618a0dc7bd631db949a9312c01184fee20e11960b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-server-0.1.0-beta.1.tgz",
+      "sha256": "bcb9765d446c7a92b2a82026301c4e633d2b25ba40bc2771b220dce0a0f3e548",
+      "source_sha256": "bcb9765d446c7a92b2a82026301c4e633d2b25ba40bc2771b220dce0a0f3e548",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vendor/splitin-verification-web-0.1.0-beta.1.tgz",
+      "sha256": "bfbb90dcaecbecba6f9784c1bc500e2fd362c99eddf80437d5560655bd38e47c",
+      "source_sha256": "bfbb90dcaecbecba6f9784c1bc500e2fd362c99eddf80437d5560655bd38e47c",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "web.ts",
+      "sha256": "b3b812298c68ec0c4dcbdf57cae79fcd88759bcaf08425b1b5e5235025c14b91",
+      "source_sha256": "b3b812298c68ec0c4dcbdf57cae79fcd88759bcaf08425b1b5e5235025c14b91",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/brand/splitin-logo.png",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "source_sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "mode": "100644",
+      "change": null
+    }
+  ]
+}

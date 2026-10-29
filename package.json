@@ -13,23 +13,24 @@
     "./styles.css": "./styles.css"
   },
   "dependencies": {
-    "@splitin/verification-engine": "file:vendor/splitin-verification-engine-0.1.0-beta.1.tgz",
-    "@splitin/verification-react": "file:vendor/splitin-verification-react-0.1.0-beta.1.tgz",
-    "@splitin/verification-postgres": "file:vendor/splitin-verification-postgres-0.1.0-beta.1.tgz",
+    "@splitin/verification-adapter-persona": "file:vendor/splitin-verification-adapter-persona-0.1.0-beta.1.tgz",
+    "@splitin/verification-adapter-plaid-idv": "file:vendor/splitin-verification-adapter-plaid-idv-0.1.0-beta.1.tgz",
     "@splitin/verification-adapter-sdk": "file:vendor/splitin-verification-adapter-sdk-0.1.0-beta.1.tgz",
     "@splitin/verification-adapter-stripe-identity": "file:vendor/splitin-verification-adapter-stripe-identity-0.1.0-beta.1.tgz",
-    "@splitin/verification-adapter-persona": "file:vendor/splitin-verification-adapter-persona-0.1.0-beta.1.tgz",
-    "@splitin/verification-server": "file:vendor/splitin-verification-server-0.1.0-beta.1.tgz",
-    "@splitin/verification-adapter-plaid-idv": "file:vendor/splitin-verification-adapter-plaid-idv-0.1.0-beta.1.tgz",
-    "@splitin/verification-web": "file:vendor/splitin-verification-web-0.1.0-beta.1.tgz",
+    "@splitin/verification-cli": "file:vendor/splitin-verification-cli-0.1.0-beta.1.tgz",
     "@splitin/verification-compat-splitin-v2": "file:vendor/splitin-verification-compat-splitin-v2-0.1.0-beta.1.tgz",
-    "@splitin/verification-cli": "file:vendor/splitin-verification-cli-0.1.0-beta.1.tgz"
+    "@splitin/verification-engine": "file:vendor/splitin-verification-engine-0.1.0-beta.1.tgz",
+    "@splitin/verification-postgres": "file:vendor/splitin-verification-postgres-0.1.0-beta.1.tgz",
+    "@splitin/verification-react": "file:vendor/splitin-verification-react-0.1.0-beta.1.tgz",
+    "@splitin/verification-server": "file:vendor/splitin-verification-server-0.1.0-beta.1.tgz",
+    "@splitin/verification-web": "file:vendor/splitin-verification-web-0.1.0-beta.1.tgz"
   },
   "license": "MIT",
   "files": [
     "*.ts",
     "*.css",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "bundleDependencies": [
     "@splitin/verification-engine",
@@ -43,5 +44,24 @@
     "@splitin/verification-web",
     "@splitin/verification-compat-splitin-v2",
     "@splitin/verification-cli"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/dev-tools-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/dev-tools-client/issues"
+  },
+  "homepage": "https://github.com/splitintech/dev-tools-client#readme",
+  "scripts": {
+    "check:migration": "python3 scripts/check-migration.py",
+    "test": "node scripts/check-packed.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  }
 }

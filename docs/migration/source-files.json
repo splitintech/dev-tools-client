@@ -1,0 +1,175 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "dev-tools-client",
+  "files": [
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "git_blob": "48558c9ed2413adf3ba96a877a8be732845bdbc1",
+      "mode": "100644",
+      "sha256": "8875234fb3a6c3a6c1526e29e84912dade9c68ac14fccad175e6d47b4674eb5a"
+    },
+    {
+      "source": "dev-tools-client/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "c2658d7d1b31848c3b71960543cb0368e56cd4c7",
+      "mode": "100644",
+      "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97"
+    },
+    {
+      "source": "dev-tools-client/README.md",
+      "target": "README.md",
+      "git_blob": "9811b8cd3ea78eee55ad5b2c3133f269d5c3b7f7",
+      "mode": "100644",
+      "sha256": "e2613c38f3c3b9e01722b6ddc2e477fe642898fa6462e6c2ef04b84eca12e772"
+    },
+    {
+      "source": "dev-tools-client/launcher.ts",
+      "target": "launcher.ts",
+      "git_blob": "9aca426dd609750ea9a332ba72a266f20c536a60",
+      "mode": "100644",
+      "sha256": "487e6e8d65c4371b4147eb5ece2c5a4457f36d9c3d0e16a8714686805caf91d3"
+    },
+    {
+      "source": "dev-tools-client/operations.ts",
+      "target": "operations.ts",
+      "git_blob": "86fa441bb2f335f7d260d6979112190d125408a3",
+      "mode": "100644",
+      "sha256": "1b74565b1aa28943f0f4875a6e3a6951f9050916c4a865abb18ad8e9f6f9d102"
+    },
+    {
+      "source": "dev-tools-client/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "6dce9b8b2ddfaabffee7fb9f9ad79e05e27440fb",
+      "mode": "100644",
+      "sha256": "526af26f2b2427203a1a2b24b0276b9729bdafb7f5863833d3cc6f88d14581a7"
+    },
+    {
+      "source": "dev-tools-client/package.json",
+      "target": "package.json",
+      "git_blob": "5030d2ce4ff9527499d64f41b31bb99b14134743",
+      "mode": "100644",
+      "sha256": "c9ac92d59f66451b8a06cc5e970aec73a5cde0419023645df1d2d7e8328d4f32"
+    },
+    {
+      "source": "dev-tools-client/retry.ts",
+      "target": "retry.ts",
+      "git_blob": "f77a937391f8e190edc50a95f0626f771040e892",
+      "mode": "100644",
+      "sha256": "ab4cc4c5bf2e1419bde2b158a83c0ea1b1248a1ce797318c08592c1a67d8e630"
+    },
+    {
+      "source": "dev-tools-client/sdk.ts",
+      "target": "sdk.ts",
+      "git_blob": "df77b7088a4079ab9e5bfa19474c9c36a5173f09",
+      "mode": "100644",
+      "sha256": "1f3119cc8390c32ff64b08db540602d1203e6f0d06d04a2bb8bc3f00c2c24796"
+    },
+    {
+      "source": "dev-tools-client/status.ts",
+      "target": "status.ts",
+      "git_blob": "9e22d93cedbee6665a708a6bce1f9b891c117fd2",
+      "mode": "100644",
+      "sha256": "8b2edcd64c2824a93d663bb870c89950a8bbb26a622edef49e659c617e76847b"
+    },
+    {
+      "source": "dev-tools-client/styles.css",
+      "target": "styles.css",
+      "git_blob": "7e68ae7eac824808e93e900e1263eb874c2aec5a",
+      "mode": "100644",
+      "sha256": "6b7127f47800bbfd14fe3927b31f4050eba6a7a7d7edd93b2c20afb2d6e623a4"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-adapter-persona-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-adapter-persona-0.1.0-beta.1.tgz",
+      "git_blob": "574a3f875e0766809c813e012aa89f4855e203b1",
+      "mode": "100644",
+      "sha256": "963f32278db77fceaf9d0f1fc1cc9975f7d206d24e057f36d739e1f646bc0063"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-adapter-plaid-idv-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-adapter-plaid-idv-0.1.0-beta.1.tgz",
+      "git_blob": "41f2be230adac65a84965b23dbee09a61670661a",
+      "mode": "100644",
+      "sha256": "c5c5e01fddcdbed61c86bc72ac44057f7c1bffff9164726493ed623f90ce503b"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-adapter-sdk-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-adapter-sdk-0.1.0-beta.1.tgz",
+      "git_blob": "7c73b99eabee221c10377babb3a42e2c9944a8fc",
+      "mode": "100644",
+      "sha256": "c0c4de0938f84c80327ded30d165b560b21f8801e80c70626f593351e2da6176"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-adapter-stripe-identity-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-adapter-stripe-identity-0.1.0-beta.1.tgz",
+      "git_blob": "1a588a212bf39778b78fef18d8b73000589556f7",
+      "mode": "100644",
+      "sha256": "66675674394fcf036eb9e01959146405c54754c599d84c5008ef5e02c5a9430c"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-cli-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-cli-0.1.0-beta.1.tgz",
+      "git_blob": "deda68d6b53ad28f4195f27b158fded08e910771",
+      "mode": "100644",
+      "sha256": "6e9deb4fe12b27e1cd4106f64258fa31c40d5af0648010c43f36d5fa649ae1b2"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-compat-splitin-v2-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-compat-splitin-v2-0.1.0-beta.1.tgz",
+      "git_blob": "cb05c936453eb17b9dba7ad9fc1ed365b3e929e6",
+      "mode": "100644",
+      "sha256": "2a794f3ee38f3d1f2c55c9cc126c63fefb1f267abd57012641f94f02e3aef8ff"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-engine-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-engine-0.1.0-beta.1.tgz",
+      "git_blob": "a3883e2b854fcd06c212c38fe1ef40e36b991cff",
+      "mode": "100644",
+      "sha256": "7d8a15ba665ccdbb2c9e90cdc2184c860844f9a70d858b2ecd313023a8abe602"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-postgres-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-postgres-0.1.0-beta.1.tgz",
+      "git_blob": "1d47ee155767d92e3eec1bd39d169cd15994c9b7",
+      "mode": "100644",
+      "sha256": "4a6aee9f0eb5b2416d0aca7f0f24b35a40e3e7521cff8e0009232aea43ae7cfb"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-react-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-react-0.1.0-beta.1.tgz",
+      "git_blob": "a3525d77418b37510a8a2694f28ce66ec90a6672",
+      "mode": "100644",
+      "sha256": "12a36b9de6bbd240528ad26618a0dc7bd631db949a9312c01184fee20e11960b"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-server-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-server-0.1.0-beta.1.tgz",
+      "git_blob": "c5e2feb0d856d10ff9e61c529b102343fb6bff97",
+      "mode": "100644",
+      "sha256": "bcb9765d446c7a92b2a82026301c4e633d2b25ba40bc2771b220dce0a0f3e548"
+    },
+    {
+      "source": "dev-tools-client/vendor/splitin-verification-web-0.1.0-beta.1.tgz",
+      "target": "vendor/splitin-verification-web-0.1.0-beta.1.tgz",
+      "git_blob": "28dae690eb3bdc5dc707ca11bac82eb04e99c77c",
+      "mode": "100644",
+      "sha256": "bfbb90dcaecbecba6f9784c1bc500e2fd362c99eddf80437d5560655bd38e47c"
+    },
+    {
+      "source": "dev-tools-client/web.ts",
+      "target": "web.ts",
+      "git_blob": "8933f5dbbd39eca1ab24b0b3a34fc48954b4a108",
+      "mode": "100644",
+      "sha256": "b3b812298c68ec0c4dcbdf57cae79fcd88759bcaf08425b1b5e5235025c14b91"
+    },
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    }
+  ]
+}
